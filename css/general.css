@@ -1,0 +1,212 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* ----------------------------Header------------------------------- */
+
+header {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  a {
+    text-decoration: none;
+    color: black;
+  }
+}
+
+.Hero {
+  position: relative;
+  justify-items: center;
+
+  h1 {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(42, 41, 41, 0.363);
+    font-weight: 100;
+    padding: 20px;
+  }
+  #ShoppingHero {
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+  }
+}
+#BellElement {
+  margin-left: auto;
+  margin-right: 60px;
+}
+#Bell {
+  width: 20px;
+  height: 20px;
+}
+
+#Icon {
+  width: 20px;
+  height: 20px;
+  margin-right: 3px;
+}
+
+.NavbarHead {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 18px 2px;
+  margin: 0;
+  background-color: black;
+  align-items: center;
+  a {
+    text-decoration: none;
+    color: rgb(161, 161, 161);
+  }
+  li {
+    margin-left: 30px;
+  }
+  .Logo {
+    font-size: large;
+    margin-left: 5px;
+  }
+  .Logo a {
+    color: rgb(255, 255, 255);
+  }
+  a:hover {
+    color: rgb(255, 255, 255);
+  }
+}
+
+/*--------------------------- main---------------------- */
+
+.searchbar {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 4% 16%;
+}
+
+.text {
+  margin-right: auto;
+}
+.Item {
+  background-color: rgba(75, 187, 244, 0.883);
+  color: white;
+  font-weight: bold;
+  padding: 2px 6px;
+  border-radius: 2px;
+}
+
+#sort {
+  padding: 10px 20px;
+  background-color: #cacaca;
+  color: rgb(0, 0, 0);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 1px solid darkgrey;
+  box-shadow: 5px 5px 10px rgb(189, 185, 185);
+}
+.sort:hover {
+  background-color: #f4f1f1;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+.reset {
+  height: 15px;
+  width: 15px;
+  align-self: center;
+}
+
+.important {
+  height: 15px;
+  width: 10px;
+  align-self: center;
+}
+.ImportanceValue {
+  color: white;
+  border-radius: 4px;
+  text-shadow: 1px 1px 2px black
+}
+.vegan{
+  color: green;
+}
+
+/*------------------------ Footer------------------------- */
+
+footer {
+  display: grid;
+  background-color: black;
+  grid-template-columns: 1fr;
+  grid-template-rows: (3, 1fr);
+  justify-content: space-between;
+  text-align: center;
+  padding: 8px;
+  margin-top: 20px;
+  p {
+    color: white;
+  }
+
+  form {
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    justify-content: center;
+    justify-items: center;
+    gap: 20px;
+  }
+  label {
+    align-self: center;
+  }
+  input {
+    border-radius: 3px;
+    height: 35px;
+    width: 450px;
+    align-self: center;
+  }
+
+  button {
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+    padding: 5px;
+    border-radius: 3px;
+    align-self: center;
+  }
+
+  #SocialMedia {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 18px;
+    margin-bottom: 15px;
+
+    img {
+      width: 30px;
+      height: 30px;
+      padding: 5px;
+      border: 1px solid white;
+      border-radius: 4px;
+    }
+  }
+
+  #Copyright {
+    margin-top: 50px;
+  }
+}
+
+
+/* resizing for smaller devices */
+
+@media screen and (width <= 500px) {
+  footer input {
+    width: 300px;
+  }
+  .text {
+    margin-right: 0;
+  }
+}

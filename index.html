@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second Exam</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/general.css">
+</head>
+
+<body>
+    <header>
+        <div>
+            <nav>
+                <ul class="NavbarHead">
+                    <li class="Logo"> <img id="Icon" src="icons/checklist.png" alt="checklist icon"><a
+                            href="#">MyShoppingList</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Task</a></li>
+                    <li><a href="#">Settings</a></li>
+                    <li id="BellElement"><img id="Bell" src="icons/bell-icon.png" alt="bell icon"></li>
+            </nav>
+
+        </div>
+        <div class="Hero">
+            <img src="https://www.eatwell101.com/wp-content/uploads/2012/02/A-Beginner%E2%80%99s-Shopping-List.jpg"
+                alt="shoppinghero" id="ShoppingHero">
+            <h1>MyShoppingList</h1>
+        </div>
+    </header>
+
+    <main>
+
+        <div class="searchbar">
+            <h2 class="text"> MyShoppingList</h2>
+            <button id="sort"> <img src="icons/clipart3458535.png " alt="sort Icon" height="20px" height="20px"> sort by priority</button>
+        </div>
+
+        <div class="container">
+
+            <div id="MainContent" class="row row-cols-lg-3 row-cols-md-2 row-cols-sm-1 gap-4 justify-content-center">
+
+                <!-- Example data for shopping list items -->
+                <!-- <div class="card shadow" style="width: 18rem;">
+                    <div class="card-header d-flex justify-content-between align-items-center" >
+                        <span class="Item">Item</span>
+                        <img src="grafik/leaf.png" alt="vegan icon" class="ms-auto" width="20px" height="20px">
+                    </div>
+                    <img src="https://cdn.pixabay.com/photo/2018/03/18/18/57/banana-3237909_1280.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <hr>
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text"><img src="grafik/priority.png" alt="priority icon" width="18px" height="18px"> priority level:</p>
+                        <P>Artikelbeschreibung</P>
+
+                        <hr>
+                        <div class="d-grid gap-2 d-md-flex justify-content-md-end">
+                            <button type="button" class="btn btn-danger btn-sm me-md-2"><img class="reset"
+                                    src="grafik/reset.png" alt="reset icon"> Reset</button>
+                            <button type="button" class="btn btn-success btn-sm"> <img class="important"
+                                    src="grafik/important.png" alt="important icon"> Important</button>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="SocialMedia">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/facebook-app-round-white-icon.png"
+                alt="facebook icon">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/linkedin-app-white-icon.png"
+                alt="linkedin icon">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/github-white-icon.png"
+                alt="github icon">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/google-white-icon.png"
+                alt="google">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/x-social-media-white-icon.png"
+                alt="X">
+            <img src="https://uxwing.com/wp-content/themes/uxwing/download/brands-and-social-media/instagram-white-icon.png"
+                alt="Instagram">
+        </div>
+        <form classe="newsletter">
+            <label for="email">Sign up for our newsletter</label>
+            <input type="email" id="email" name="email" required>
+            <button>Subscribe</button>
+        </form>
+        <p id="Copyright">&copy; 2025 Jasmin Letschka</p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
