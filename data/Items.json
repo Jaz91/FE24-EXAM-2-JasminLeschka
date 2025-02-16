@@ -1,0 +1,74 @@
+[
+  {
+    "Item": "Banana",
+    "Description": "The sun-ripened bananas are not only delicious but also fair trade.",
+    "Vegan": true,
+    "Importance": 0,
+    "Provenance": "Peru",
+    "Image" : "https://cdn.pixabay.com/photo/2018/03/18/18/57/banana-3237909_1280.jpg"
+  },
+  {
+    "Item": "Parmesan",
+    "Description": "It is aged for 12-36 months, resulting in a strong, nutty taste. Often grated over pasta or used in cooking, its a staple in Italian cuisine.",
+    "Vegan": false,
+    "Importance": 0,
+    "Provenance": "Italy",
+    "Image": "https://cdn.pixabay.com/photo/2016/10/11/16/44/parmesan-1732086_1280.jpg"
+  },
+  {
+    "Item": "Pork",
+    "Description": "It’s versatile, offering cuts like bacon, ribs, and tenderloin, with flavors ranging from mild to savory. It can be roasted, grilled, or cured, making it a popular choice in many cuisines",
+    "Vegan": false,
+    "Importance": 0,
+    "Provenance": "Austria",
+    "Image": "https://cdn.pixabay.com/photo/2022/03/12/10/14/pork-7063908_1280.jpg"
+  },
+  {
+    "Item": "Lemon",
+    "Description": "Perfect for refreshing drinks and it is rich in vitamin C. Its also perfect put into your hot tea. You can also bake a lemon cake or put a splash in your asia wok food.",
+    "Vegan": true,
+    "Importance": 0,
+    "Provenance": "Italy",
+    "Image": "https://cdn.pixabay.com/photo/2015/05/12/10/02/yellow-763833_1280.jpg"
+  },
+  {
+    "Item": "Eggs",
+    "Description": "Versatile in cooking, they can be boiled, fried, scrambled, or baked, making them a staple in many dishes.",
+    "Vegan": false,
+    "Importance": 0,
+    "Provenance": "Austria",
+    "Image": "https://cdn.pixabay.com/photo/2020/02/15/05/15/eggs-4850064_1280.jpg"
+  },
+  {
+    "Item": "Carrots",
+    "Description": "Carrots are crunchy, orange root vegetables known for their sweet flavor. Rich in vitamins, especially vitamin A, they are commonly eaten raw, cooked, or juiced, and are a popular addition to salads, stews, and soups.",
+    "Vegan": true,
+    "Importance": 0,
+    "Provenance": "Austria",
+    "Image" : "https://cdn.pixabay.com/photo/2019/08/02/17/00/carrots-4380095_1280.jpg"
+  },
+  {
+    "Item": "Salmon",
+    "Description": "The sun-ripened bananas are not only delicious but also fair trade.",
+    "Vegan": false,
+    "Importance": 0,
+    "Provenance": "Chile",
+    "Image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/food-712665_1280.jpg"
+  },
+  {
+    "Item": "Bread",
+    "Description": "This low-carb bread is very tastefull and also for vegans",
+    "Vegan": true,
+    "Importance": 0,
+    "Provenance": "Austria",
+    "Image": "https://cdn.pixabay.com/photo/2019/05/06/14/24/bread-4183225_1280.jpg"
+  },
+  {
+    "Item": "Wine",
+    "Description": "Not only good for drinking at a fine dinner but also for cooking",
+    "Vegan": true,
+    "Importance": 0,
+    "Provenance": "Austria",
+    "Image" : "https://cdn.pixabay.com/photo/2017/01/04/13/57/wine-1952051_1280.jpg"
+  }
+]
